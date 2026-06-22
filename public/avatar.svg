@@ -1,0 +1,37 @@
+<svg width="480" height="480" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="avatarTitle">
+  <title id="avatarTitle">Monogram for Mubashir Ahmad, layered architecture motif</title>
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#151922" />
+      <stop offset="100%" stop-color="#0B0D12" />
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5EEAD4" />
+      <stop offset="100%" stop-color="#2DD4BF" />
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M0 24 L0 0 L24 0" fill="none" stroke="rgba(255,255,255,0.045)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="480" height="480" rx="40" fill="url(#bgGrad)" />
+  <rect width="480" height="480" rx="40" fill="url(#grid)" />
+
+  <!-- layered hex rings representing frontend / backend / data -->
+  <polygon points="240,84 360,152 360,288 240,356 120,288 120,152"
+    fill="none" stroke="#252B38" stroke-width="2" />
+  <polygon points="240,124 328,174 328,266 240,316 152,266 152,174"
+    fill="none" stroke="#FFB454" stroke-width="2" opacity="0.55" />
+  <polygon points="240,164 296,196 296,244 240,276 184,244 184,196"
+    fill="#1B202B" stroke="url(#ringGrad)" stroke-width="2.5" />
+
+  <text x="240" y="234" text-anchor="middle" font-family="Space Grotesk, sans-serif"
+    font-size="44" font-weight="700" fill="#E7E9EE" letter-spacing="1">MA</text>
+
+  <text x="240" y="262" text-anchor="middle" font-family="JetBrains Mono, monospace"
+    font-size="13" fill="#5EEAD4" letter-spacing="2">FULL_STACK</text>
+
+  <circle cx="120" cy="152" r="4.5" fill="#5EEAD4" />
+  <circle cx="360" cy="152" r="4.5" fill="#FFB454" />
+  <circle cx="240" cy="356" r="4.5" fill="#5EEAD4" />
+</svg>
