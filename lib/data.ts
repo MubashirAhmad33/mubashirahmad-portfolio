@@ -116,8 +116,14 @@ export const experience: ExperienceItem[] = [
       "Collaborated with designers and developers to deliver high-quality solutions.",
     ],
     projects: [
-      { name: "StaffVertex", url: "https://www.staffvertex.com/" },
-      { name: "SpaceHub", url: "https://spacehub-bay.vercel.app" },
+      {
+        name: "StaffVertex",
+        url: "https://www.staffvertex.com/",
+      },
+      {
+        name: "SpaceHub",
+        url: "https://spacehub-bay.vercel.app",
+      },
     ],
   },
   {
@@ -139,6 +145,10 @@ export const experience: ExperienceItem[] = [
         name: "Izhar Builders",
         url: "https://izhar-builders-te4j-dyzkwqsg3-mubashir-s-projects.vercel.app/",
       },
+      {
+        name: "Petrol Pump Inventory",
+        url: "https://petrol-pump-inventory.vercel.app/roman/welcome",
+      },
     ],
   },
   {
@@ -154,7 +164,10 @@ export const experience: ExperienceItem[] = [
       "Improved application performance, responsiveness, and usability across devices and platforms.",
     ],
     projects: [
-      { name: "CareerBooster AI", url: "https://www.careerbooster.ai/" },
+      {
+        name: "CareerBooster AI",
+        url: "https://www.careerbooster.ai/",
+      },
     ],
   },
 ];
@@ -195,7 +208,17 @@ export const projects: Project[] = [
     name: "Izhar Builders",
     description:
       "A MERN-stack web presence for a construction & real estate business, built on optimized database schemas and secure CRUD operations from the ground up.",
-    url: "https://izhar-builders-te4j-dyzkwqsg3-mubashir-s-projects.vercel.app/",
+    url: "https://izhar-builders.vercel.app/",
+    tech: ["MongoDB", "Express.js", "React.js", "Node.js"],
+    role: "MERN Stack Developer",
+    company: "Alright Tech",
+  },
+  {
+    id: "proj-petrol-pump",
+    name: "Petrol Pump Inventory",
+    description:
+      "A web-based petrol pump inventory management application designed to streamline inventory operations and support day-to-day fuel station workflows.",
+    url: "https://petrol-pump-inventory.vercel.app/roman/welcome",
     tech: ["MongoDB", "Express.js", "React.js", "Node.js"],
     role: "MERN Stack Developer",
     company: "Alright Tech",
@@ -218,9 +241,18 @@ export interface Language {
 }
 
 export const languages: Language[] = [
-  { name: "English", level: "Fluent" },
-  { name: "Urdu", level: "Fluent" },
-  { name: "Pashto", level: "Fluent" },
+  {
+    name: "English",
+    level: "Fluent",
+  },
+  {
+    name: "Urdu",
+    level: "Fluent",
+  },
+  {
+    name: "Pashto",
+    level: "Fluent",
+  },
 ];
 
 export const coreValues: { title: string; description: string }[] = [
