@@ -143,7 +143,7 @@ export const experience: ExperienceItem[] = [
     projects: [
       {
         name: "Izhar Builders",
-        url: "https://izhar-builders-te4j-dyzkwqsg3-mubashir-s-projects.vercel.app/",
+        url: "https://izhar-builders.vercel.app/",
       },
       {
         name: "Petrol Pump Inventory",

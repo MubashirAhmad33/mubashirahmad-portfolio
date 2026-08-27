@@ -31,9 +31,8 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${
-        isScrolled ? "bg-ink-950/85 backdrop-blur-md" : "bg-transparent"
-      }`}
+      className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${isScrolled ? "bg-ink-950/85 backdrop-blur-md" : "bg-transparent"
+        }`}
     >
       <Container>
         <div className="flex h-16 items-center justify-between border-b border-transparent sm:h-20">
@@ -93,7 +92,7 @@ export default function Header() {
                   key={link.href}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className="rounded-md px-2 py-3 font-mono text-sm uppercase tracking-[0.1em] text-ash transition-colors hover:bg-surface hover:text-signal"
+                  className="rounded-md px-2 py-3 text-sm tracking-[0.1em] text-ash transition-colors hover:bg-surface hover:text-signal"
                 >
                   {link.label}
                 </a>
